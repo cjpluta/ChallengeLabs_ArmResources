@@ -59,7 +59,7 @@
     "subnet-id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]",
     "imagePublisher": "MicrosoftWindowsServer",
     "imageOffer": "WindowsServer",
-    "imageSku": "2019-Datacenter",
+    "imageSku": "2022-datacenter-azure-edition",
     "networkSecurityGroupName": "Subnet-nsg"
   },
   "resources": [
